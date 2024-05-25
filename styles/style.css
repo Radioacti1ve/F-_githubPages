@@ -1,0 +1,82 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #030202;
+  font-size: 20px;
+  position: relative;
+}
+
+.logo {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  color: #b3b3b3;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-family: 'STIX Two Text', sans-serif;
+  color: #b3b3b3;
+}
+
+p {
+  color: #b3b3b3;
+}
+
+.documentation {
+  display: flex;
+  color: #b3b3b3;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.documentationwrapper {
+  line-height: 1.5;
+}
+
+.list {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+  max-width: 990px;
+  justify-self: center;
+  line-height: 1.5;
+}
+
+.list-item {
+  color: currentColor;
+}
+
+.codewrapper{
+  width: 80%; /* Ширина блока */
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #383838;
+  font-family: inherit;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap; /* сохранение пробелов и переносов строк */
+  margin-bottom: 20px;
+}
+
+.First_p::first-letter {
+  display: inline-block;
+  padding: 4px;
+  margin-right: 1px;
+  background-color: var(--accent-color);
+  font-size: 30px;
+  font-weight: var(--title-weight);
+  border: 1px solid currentColor;
+}
